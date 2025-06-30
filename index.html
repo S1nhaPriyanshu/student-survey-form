@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section> 
+    <h1>Student Feedback Form</h1>
+    <p> 
+        We'd love to hear your thoughts about the course! Please fill out this quick form.
+    </p>
+
+    <form action="/submit" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+              <label for="name"> Name <input type="text" placeholder="Priyanshu" id="name" required> </label>
+        </fieldset>
+     <fieldset>
+        <label for="email"> Email <input type="email" placeholder="123example@eg.com " id="email" required></label>
+     </fieldset>
+  <fieldset>
+    <label for="experience">Rate your experience
+        <select name="experience" id="experience" required>
+            <option value="">
+                Select your experience level
+            </option>
+            <option value="Excellent"> Excellent</option>
+            <option value="Good"> Good</option>
+            <option value="Average"> Average</option>   
+            <option value="Poor"> Poor</option>
+
+        </select>
+    </label>
+  </fieldset>
+    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Your feedback here..."></textarea>
+    <button type="submit" class="button">Submit Feedback</button>
+</form>
+</section>
+
+</main>
+</body>
+</html>
