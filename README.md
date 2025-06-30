@@ -11,7 +11,7 @@ This is a basic HTML & CSS form project built independently while learning from 
 
 ## 🚀 Live Demo
 
-[Click here to view it]() 
+[Click here to view it](https://s1nhapriyanshu.github.io/student-survey-form/) 
 
 ## 📚 Skills Practiced
 
